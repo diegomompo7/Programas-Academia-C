@@ -14,8 +14,18 @@ int main(){
 	printf("Dime el tercer número: ");
         scanf("%i", &numero3);
 
+	// VERSION TERNARIO
+	
 	printf(
 	(numero1 < 10 || numero2 < 10 || numero3 < 10)? "Alguno de los números es menor que diez\n": "");
 
+	/* VERSION IF
+	
+	if (num1 < 10 && num2 < 10 && num3 < 10)
+	{
+	printf("Todos los números son menores a diez");
+        }
+
+	*/
     return EXIT_SUCCESS;
 }

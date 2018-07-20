@@ -18,11 +18,27 @@ int main(){
     printf("Dime el tercer número: ");
     scanf("%i", &numero3);
 
+    // VERSION TERNARIO
+
     printf(
     "La suma del primero y segundo multiplicado por el tercero: %i \n"
     "La suma del primero y el segundo: %i \n ", 
     (numero1 == numero2 && numero1 == numero3)? suma= numero1 + numero2, multiplica= suma * numero3: "");
 
+    /* VERSION IF
+    
+    if (num1 == num2 && num1 == num3)
+	{
+	int suma = num1 + num2;
+	printf("La suma del primero y segundo:");
+	printf("%i",suma);
+	printf("\n");
+	int producto = suma * num3;
+	printf("La suma del primero y segundo
+	multiplicado por el tercero:");
+	printf("%i",producto);
+	}
+   */
 
     return EXIT_SUCCESS;
 }

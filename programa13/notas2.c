@@ -18,12 +18,32 @@ int main(){
 
    promedio = (nota1 + nota2 + nota3) / 3;
 
+   // Versión Ternario 
+
    printf(
    (promedio >= 7)? "Promocionado \n":
    (promedio >= 4)? "Regular \n":
    "Reprobado \n");
 
-  
+/* Versión IF
+ 
+ if (promedio >= 7)
+	{
+	printf("Promocionado");
+	}
+	else
+	{
+	 if (promedio >= 4)
+	  {
+	    printf("Regular");
+	  }
+	 else
+	 {
+	  printf("Reprobado");
+	 }
+        }
+
+*/
 
     return EXIT_SUCCESS;
 }

@@ -14,10 +14,39 @@ int main(){
     printf("Dime el tercer número: ");
     scanf("%i", &num3);
 
+    // VERSION TERNARIO
     printf(
     (num1 > num2)? "El primer número es el número más grande \n":
     (num2 > num3)? "El segundom número es el número más grande \n":
     "El tercer número es el número más grande \n");
+
+   /*  VERSION IF
+    
+  if (num1 > num2)
+  {
+   if (num1 > num3)
+    {
+    printf("%i",num1);
+    }
+  else
+    {
+     printf("%i",num3);
+    }
+  }
+
+  else
+   {
+    if (num2 > num3)
+     {
+      printf("%i",num2);
+     }
+   else
+    {
+     printf("%i",num3);
+    }
+ }
+
+*/
 
     return EXIT_SUCCESS;
 }
